@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-pinterest {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+
+/* NAV Seccion izquierda*/
+
+.seccioni {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seccioni__1 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pinterest-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccioni__2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seccioni__2  a {
+    width: 100%;
+    height: 50%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccioni__2 a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+/* NAV Seccion central*/ 
+
+.seccionc {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finder {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 0px 0px 0px 20px;
+    border-radius: 100px;
+    background-color: rgb(216, 216, 216);
+}
+
+.finder img {
+    width: 40px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.finder input {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(216, 216, 216);
+    border-style: none;
+}
+
+/* NAV Seccion derecha*/
+
+.secciond {
+    width: 18%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#notifications {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notifications img {
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+#notifications img:hover {
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 2px;
+}
+
+#message {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#message img {
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+#message img:hover {
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 2px;
+}
+
+#profile-img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+#profile-img img:hover {
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 2px;
+}
+
+#flechita {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flechita img {
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+#flechita img:hover {
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 2px;
+}
+
+/* Main */
+
+#content {
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card-image {
+    
+}
+
+.card-image img {
+    border-radius: 20px;
+}
